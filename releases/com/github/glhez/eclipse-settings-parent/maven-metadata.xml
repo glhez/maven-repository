@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.glhez</groupId>
+  <artifactId>eclipse-settings-parent</artifactId>
+  <versioning>
+    <release>3.6.0</release>
+    <versions>
+      <version>3.1.0</version>
+      <version>3.2.0</version>
+      <version>3.2.1</version>
+      <version>3.2.2</version>
+      <version>3.2.3</version>
+      <version>3.3.0</version>
+      <version>3.3.1</version>
+      <version>3.4.0</version>
+      <version>3.5.0</version>
+      <version>3.6.0</version>
+    </versions>
+    <lastUpdated>20230323211953</lastUpdated>
+  </versioning>
+</metadata>

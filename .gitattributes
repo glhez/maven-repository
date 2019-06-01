@@ -1,0 +1,5 @@
+*.pom eol=lf
+*.asc eol=lf
+*.md5 eol=lf
+*.sha1 eol=lf
+
