@@ -1,3 +1,5 @@
 
-* binary
+# we don't want git to fix the CRLF due to SHA1 files
+releases/* binary
+snapshots/* binary
 
