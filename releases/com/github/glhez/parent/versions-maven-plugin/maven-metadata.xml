@@ -3,14 +3,15 @@
   <groupId>com.github.glhez.parent</groupId>
   <artifactId>versions-maven-plugin</artifactId>
   <versioning>
-    <release>2019.06.12.02</release>
+    <release>2019.06.15.01</release>
     <versions>
       <version>2019.06.02.3</version>
       <version>2019.06.02.4</version>
       <version>2019.06.05.01</version>
       <version>2019.06.12.01</version>
       <version>2019.06.12.02</version>
+      <version>2019.06.15.01</version>
     </versions>
-    <lastUpdated>20190611223558</lastUpdated>
+    <lastUpdated>20190615213959</lastUpdated>
   </versioning>
 </metadata>
