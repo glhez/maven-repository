@@ -24,13 +24,13 @@
   </modules>
 
   <properties>
-    <java.compliance>1.8</java.compliance>
+    <java.compliance>1.7</java.compliance>
     <maven.compiler.source>${java.compliance}</maven.compiler.source>
     <maven.compiler.target>${java.compliance}</maven.compiler.target>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     
-    <enforcer.requireJavaVersion>[1.8,1.9)</enforcer.requireJavaVersion>
+    <enforcer.requireJavaVersion>[1.7,1.8)</enforcer.requireJavaVersion>
     <enforcer.requireMavenVersion>[3.6.0,3.7.0)</enforcer.requireMavenVersion>
   </properties>
 
@@ -229,6 +229,7 @@
         </plugins>
       </build>
     </profile>
+
     <!--
       Travis  does  not  support  maven-toolchain-plugin, or rather won't have more than one toolchain: having
       several  JDK defined in .travis.yml will only create one more docker instance rather than using the same
@@ -254,7 +255,11 @@
     <profile>
       <id>travis-common</id>
       <activation> <property> <name>env.TRAVIS</name> </property> </activation>
-      <properties> <toolchain.phase>none</toolchain.phase> </properties>
+      <properties>
+        <toolchain.phase>none</toolchain.phase>
+        <!-- Java 7 is no longer supported by travis -->
+        <enforcer.requireJavaVersion>[1.8,1.9)</enforcer.requireJavaVersion>
+      </properties>
       <!-- since a toolchain is not in use, enforce the use of a specific version of java. -->
       <build>
         <plugins>
