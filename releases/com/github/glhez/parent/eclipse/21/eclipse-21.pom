@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.github.glhez.parent</groupId>
+    <artifactId>maven-parent</artifactId>
+    <version>21</version>
+  </parent>
+
+  <artifactId>eclipse</artifactId>
+  <packaging>jar</packaging>
+
+  <description>
+    Package various Eclipse configuration.
+    There are one project per JDK version.
+  </description>
+
+  <build>
+    <resources>
+      <resource>
+        <filtering>false</filtering>
+        <directory>${project.basedir}</directory>
+        <includes>
+          <include>java-1.8/**</include>
+          <include>java-11/**</include>
+          <include>java-13/**</include>
+          <include>code-formatter-profile/**</include>
+        </includes>
+        <excludes>
+          <exclude>**/src/.keep</exclude>
+          <exclude>**/.project</exclude>
+          <exclude>**/.classpath</exclude>
+        </excludes>
+      </resource>
+    </resources>
+
+    <plugins>
+      <plugin>
+        <groupId>org.ec4j.maven</groupId>
+        <artifactId>editorconfig-maven-plugin</artifactId>
+        <configuration>
+          <excludes>
+            <!-- these are generated, we don't want to fix them. -->
+            <exclude>java8/**</exclude>
+            <exclude>java11/**</exclude>
+            <exclude>java13/**</exclude>
+            <exclude>code-formatter-profile/**</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
