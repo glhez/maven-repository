@@ -16,7 +16,7 @@ For artifacts, you may add this repository to your existing repositories:
   <repositories>
     <repository>
       <id>github-maven-parent</id>
-      <url>https://raw.githubusercontent.com/glhez/maven-repository/master/releases/</url>
+      <url>https://glhez.github.io/maven-repository/releases/</url>
     </repository>
   </repositories>
 ```
@@ -28,7 +28,7 @@ For plugins, such as my fork of [eclipse-settings-maven-plugin][3], you must add
   <pluginRepositories>
     <pluginRepository>
       <id>github-maven-parent</id>
-      <url>https://raw.github.com/glhez/maven-repository/master/releases/</url>
+      <url>https://glhez.github.io/maven-repository/releases/</url>
     </pluginRepository>
   </pluginRepositories>
 ```
@@ -42,7 +42,7 @@ More information here:
 
 This option is better for various reasons: if I take the courage to upload my artifacts on Sonatype or another repository manager, you would have only to change the local repository.
 
-- Create a new proxy repository pointing to `https://raw.githubusercontent.com/glhez/maven-repository/master/releases`
+- Create a new proxy repository pointing to `https://glhez.github.io/maven-repository/releases`
 - Disable _Auto blocking_: Github does not list directories.
 - Add the new repository to a group (for example, public)
 - Ensure the group is used rather than the repository.
