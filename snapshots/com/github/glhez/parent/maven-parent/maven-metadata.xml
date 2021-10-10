@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.glhez.parent</groupId>
+  <artifactId>maven-parent</artifactId>
+  <versioning>
+    <versions>
+      <version>50-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20211010190535</lastUpdated>
+  </versioning>
+</metadata>
