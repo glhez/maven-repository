@@ -47,6 +47,12 @@ This option is better for various reasons: if I take the courage to upload my ar
 - Add the new repository to a group (for example, public)
 - Ensure the group is used rather than the repository.
 
+## Site
+
+You may also browse site generated during project release:
+
+- [com.github.glhez.parent](site/com.github.glhez.parent)
+- [eclipse-settings-maven-plugin](site/eclipse-settings-maven-plugin)
 
 [1]: http://maven.apache.org/settings.html#Plugin_Repositories
 [2]: https://maven.apache.org/pom.html#Plugin_Repositories
