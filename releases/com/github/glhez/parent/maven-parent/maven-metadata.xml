@@ -3,7 +3,7 @@
   <groupId>com.github.glhez.parent</groupId>
   <artifactId>maven-parent</artifactId>
   <versioning>
-    <release>66</release>
+    <release>67</release>
     <versions>
       <version>2019.06.02.3</version>
       <version>2019.06.02.4</version>
@@ -65,7 +65,8 @@
       <version>64</version>
       <version>65</version>
       <version>66</version>
+      <version>67</version>
     </versions>
-    <lastUpdated>20221226102817</lastUpdated>
+    <lastUpdated>20230207204437</lastUpdated>
   </versioning>
 </metadata>
