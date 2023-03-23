@@ -1,0 +1,42 @@
+-classpath
+'E:/apps/data/maven/local/org/apache/maven/maven-plugin-api/3.9.1/maven-plugin-api-3.9.1.jar;E:/apps/data/maven/local/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.5/org.eclipse.sisu.plexus-0.3.5.jar;E:/apps/data/maven/local/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar;E:/apps/data/maven/local/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar;E:/apps/data/maven/local/org/apache/maven/maven-model/3.9.1/maven-model-3.9.1.jar;E:/apps/data/maven/local/org/apache/maven/maven-core/3.9.1/maven-core-3.9.1.jar;E:/apps/data/maven/local/org/apache/maven/maven-settings/3.9.1/maven-settings-3.9.1.jar;E:/apps/data/maven/local/org/apache/maven/maven-settings-builder/3.9.1/maven-settings-builder-3.9.1.jar;E:/apps/data/maven/local/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar;E:/apps/data/maven/local/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar;E:/apps/data/maven/local/org/apache/maven/maven-builder-support/3.9.1/maven-builder-support-3.9.1.jar;E:/apps/data/maven/local/org/apache/maven/maven-repository-metadata/3.9.1/maven-repository-metadata-3.9.1.jar;E:/apps/data/maven/local/org/apache/maven/maven-model-builder/3.9.1/maven-model-builder-3.9.1.jar;E:/apps/data/maven/local/org/apache/maven/maven-resolver-provider/3.9.1/maven-resolver-provider-3.9.1.jar;E:/apps/data/maven/local/org/apache/maven/resolver/maven-resolver-impl/1.9.7/maven-resolver-impl-1.9.7.jar;E:/apps/data/maven/local/org/apache/maven/resolver/maven-resolver-named-locks/1.9.7/maven-resolver-named-locks-1.9.7.jar;E:/apps/data/maven/local/org/apache/maven/resolver/maven-resolver-api/1.9.7/maven-resolver-api-1.9.7.jar;E:/apps/data/maven/local/org/apache/maven/resolver/maven-resolver-spi/1.9.7/maven-resolver-spi-1.9.7.jar;E:/apps/data/maven/local/org/apache/maven/resolver/maven-resolver-util/1.9.7/maven-resolver-util-1.9.7.jar;E:/apps/data/maven/local/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar;E:/apps/data/maven/local/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.jar;E:/apps/data/maven/local/com/google/inject/guice/5.1.0/guice-5.1.0.jar;E:/apps/data/maven/local/aopalliance/aopalliance/1.0/aopalliance-1.0.jar;E:/apps/data/maven/local/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar;E:/apps/data/maven/local/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;E:/apps/data/maven/local/javax/inject/javax.inject/1/javax.inject-1.jar;E:/apps/data/maven/local/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar;E:/apps/data/maven/local/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar;E:/apps/data/maven/local/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar;E:/apps/data/maven/local/org/apache/maven/maven-artifact/3.9.1/maven-artifact-3.9.1.jar;E:/apps/data/maven/local/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.jar;E:/apps/data/maven/local/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar;E:/apps/data/maven/local/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar;E:/apps/data/maven/local/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar;E:/apps/data/maven/local/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar;E:/apps/data/maven/local/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar;E:/apps/data/maven/local/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;E:/apps/data/maven/local/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar;E:/apps/data/maven/local/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar;E:/apps/data/maven/local/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar;E:/apps/data/maven/local/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar;E:/apps/data/maven/local/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar;E:/apps/data/maven/local/org/mockito/mockito-core/5.2.0/mockito-core-5.2.0.jar;E:/apps/data/maven/local/net/bytebuddy/byte-buddy/1.14.1/byte-buddy-1.14.1.jar;E:/apps/data/maven/local/net/bytebuddy/byte-buddy-agent/1.14.1/byte-buddy-agent-1.14.1.jar;E:/apps/data/maven/local/org/objenesis/objenesis/3.3/objenesis-3.3.jar;E:/apps/data/maven/local/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar;E:/apps/data/maven/local/com/github/marschall/memoryfilesystem/2.5.0/memoryfilesystem-2.5.0.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+11
+-sourcepath
+'E:/git/fork/github/glhez-eclipse-settings-maven-plugin/target/checkout/eclipse-settings-maven-plugin/src/main/java;E:/git/fork/github/glhez-eclipse-settings-maven-plugin/target/checkout/eclipse-settings-maven-plugin/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/git/fork/github/glhez-eclipse-settings-maven-plugin/target/checkout/eclipse-settings-maven-plugin/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Eclipse Settings Maven Plugin 3.6.0 API'
+-link
+'https://maven.apache.org/ref/3.9.1/maven-plugin-api/apidocs'
+-link
+'https://maven.apache.org/ref/3.9.1/maven-model/apidocs'
+-link
+'https://maven.apache.org/ref/3.9.1/maven-core/apidocs'
+-link
+'https://maven.apache.org/ref/3.9.1/maven-artifact/apidocs'
+-link
+'https://maven.apache.org/plugin-tools/maven-plugin-annotations/apidocs'
+-link
+'https://codehaus-plexus.github.io/plexus-utils/apidocs'
+-link
+'https://commons.apache.org/proper/commons-lang/apidocs'
+-link
+'https://assertj.github.io/doc/#assertj-core/apidocs'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'E:/git/fork/github/glhez-eclipse-settings-maven-plugin/target/checkout/eclipse-settings-maven-plugin/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Eclipse Settings Maven Plugin 3.6.0 API'
